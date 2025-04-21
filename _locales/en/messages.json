@@ -1,0 +1,30 @@
+{
+  "appName": {
+    "message": "Timestamp Converter",
+    "description": "The name of the extension"
+  },
+  "appDesc": {
+    "message": "Automatically converts timestamps to human-readable format",
+    "description": "The description of the extension"
+  },
+  "timezone": {
+    "message": "Timezone",
+    "description": "Label for timezone selection"
+  },
+  "timeFormat": {
+    "message": "Time Format",
+    "description": "Label for time format selection"
+  },
+  "convertButton": {
+    "message": "Convert Timestamps",
+    "description": "Text for the convert button"
+  },
+  "readmeLink": {
+    "message": "Readme",
+    "description": "Text for readme link"
+  },
+  "donateLink": {
+    "message": "Donate",
+    "description": "Text for donate link"
+  }
+}

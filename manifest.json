@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Timestamp Converter",
+  "version": "1.0",
+  "description": "Convert timestamps to readable dates",
+  "default_locale": "en",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "moment.min.js",
+        "moment-timezone-with-data.min.js",
+        "content.js"
+      ]
+    }
+  ]
+}

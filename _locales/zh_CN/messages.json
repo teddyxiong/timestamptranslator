@@ -1,0 +1,30 @@
+{
+  "appName": {
+    "message": "时间戳转换器",
+    "description": "扩展名称"
+  },
+  "appDesc": {
+    "message": "自动将时间戳转换为可读格式",
+    "description": "扩展描述"
+  },
+  "timezone": {
+    "message": "时区",
+    "description": "时区选择标签"
+  },
+  "timeFormat": {
+    "message": "时间格式",
+    "description": "时间格式选择标签"
+  },
+  "convertButton": {
+    "message": "转换时间戳",
+    "description": "转换按钮文本"
+  },
+  "readmeLink": {
+    "message": "使用说明",
+    "description": "使用说明链接文本"
+  },
+  "donateLink": {
+    "message": "捐赠支持",
+    "description": "捐赠链接文本"
+  }
+}

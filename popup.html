@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .setting-item {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    select, input {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .footer {
+      margin-top: 15px;
+      padding: 10px;
+      background-color: #f5f5f5;
+      border-top: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+    }
+    .footer-link {
+      color: #666;
+      text-decoration: none;
+    }
+    .footer-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="setting-item">
+    <label for="timezone" id="timezone-label"></label>
+    <select id="timezone"></select>
+  </div>
+
+  <div class="setting-item">
+    <label for="format" id="format-label"></label>
+    <select id="format">
+      <option value="YYYY-MM-DD HH:mm:ss">YYYY-MM-DD HH:mm:ss</option>
+      <option value="MM/DD/YYYY HH:mm:ss">MM/DD/YYYY HH:mm:ss</option>
+      <option value="DD.MM.YYYY HH:mm:ss">DD.MM.YYYY HH:mm:ss</option>
+    </select>
+  </div>
+  <button id="convert"></button>
+  <div class="footer">
+    <a href="https://github.com/yourusername/timestamp-converter/readme" target="_blank" class="footer-link" id="readme-link"></a>
+    <a href="https://github.com/sponsors/yourusername" target="_blank" class="footer-link" id="donate-link"></a>
+  </div>
+  <script src="moment.min.js"></script>
+  <script src="moment-timezone-with-data.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
