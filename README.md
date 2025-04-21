@@ -1,7 +1,7 @@
 [English](README.md) | [简体中文](readmecn.md)
 
 
-# timestamptranslator
+# Timestamptranslator
 
 ## Meet a free, open-source browser extension that simplifies timestamp translation on web pages.
 This handy tool automatically detects and converts Unix timestamps—whether in 11-digit (seconds) or 13-digit (milliseconds) format—making it a snap to understand dates and times online.
@@ -13,6 +13,11 @@ During fast-paced development, I often queried databases to verify results. Cons
 2.  Converts times to your local time zone automatically, supporting all IANA time zones  
 
 3.  Lets you customize date and time formats to match your preferences
+
+## how to use
+1.  Install the extension from the Chrome Web Store or Firefox Add-ons.
+2.  On any web page, simply click the timestamp  icon to convert.
+3.  The extension will automatically detect the timestamp format and convert it to your local time zone.
 
 ## Feedback & Support
 Run into an issue or have an idea for a new feature? Feel free to contact. I’d also love contributions to improve localization or add new timestamp formats!
