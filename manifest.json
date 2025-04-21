@@ -4,11 +4,17 @@
   "version": "1.0",
   "description": "Convert timestamps to readable dates",
   "default_locale": "en",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
   "permissions": [
     "activeTab",
     "storage"
   ],
   "action": {
+    "default_icon": "images/icon48.png", 
     "default_popup": "popup.html"
   },
   "content_scripts": [
